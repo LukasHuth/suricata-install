@@ -1,3 +1,4 @@
+#!/bin/bash
 sudo echo ""
 sudo apt update -y
 sudo apt -y install wget curl make libpcre3 libpcre3-dbg libpcre3-dev build-essential autoconf automake libtool libpcap-dev libnet1-dev libyaml-0-2 libyaml-dev zlib1g zlib1g-dev libmagic-dev libcap-ng-dev libjansson-dev pkg-config cargo libnetfilter-queue-dev libcap-ng0 libnss3-dev libgeoip-dev liblua5.1-0-dev libhiredis-dev libevent-dev libpcre2-dev python3-yaml
