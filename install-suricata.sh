@@ -32,4 +32,5 @@ source .venv/bin/activate
 pip install --upgrade suricata-update
 
 sudo suricata-update
+deactivate
 popd
