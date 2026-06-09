@@ -28,6 +28,7 @@ sudo ldconfig
 sudo apt install python3-pip -y
 sudo apt install python3.11-venv -y
 mkdir .venv
+python3 -m venv .venv
 source .venv/bin/activate
 pip install --upgrade suricata-update
 
