@@ -26,7 +26,10 @@ sudo make install-conf
 sudo ldconfig
 
 sudo apt install python3-pip
-sudo pip install --upgrade suricata-update
+sudo apt install python3.11-venv
+mkdir .venv
+source .venv/bin/activate
+pip install --upgrade suricata-update
 
 sudo suricata-update
 popd
